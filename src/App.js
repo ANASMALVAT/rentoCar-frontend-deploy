@@ -1,12 +1,12 @@
 import "../src/dist/styles.css";
-import About from "./Pages/About";
-import Home from "./Pages/Home";
+import About from "./pages/About"
+import Home from "./pages/Home";
 import Navbar from "../src/components/Navbar";
 import { Route, Routes } from "react-router-dom";
-import Models from "./Pages/Models";
-import TestimonialsPage from "./Pages/TestimonialsPage";
-import Team from "./Pages/Team";
-import Contact from "./Pages/Contact";
+import Models from "./pages/Models";
+import TestimonialsPage from "./pages/TestimonialsPage";
+import Team from "./pages/Team";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
